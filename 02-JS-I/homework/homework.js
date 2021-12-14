@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 3;
+const nuevoModulo = 21 % 6 === 3;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -77,7 +77,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if (str1.lenght == str2.lenght) {
+  if (str1.length == str2.length) {
     return true;
   }
   return false;
@@ -165,7 +165,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.round(num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
@@ -209,7 +209,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Bienvenido " + nombre + " ahora eres miembro Henry!"
+  return "Hola " + nombre + "!"
   
 }
 
@@ -224,8 +224,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * lado;
-  
+  return lado * 4;
 }
 
 
